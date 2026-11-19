@@ -1,0 +1,17 @@
+{
+  "name": "ritual-token-risk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "encode": "tsx scripts/encodeLlmRequest.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^22.0.0"
+  }
+}

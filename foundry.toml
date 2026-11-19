@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.24"
+# Per Ritual docs (Deployment > Foundry)
+evm_version = "shanghai"
+
+[rpc_endpoints]
+ritual = "https://rpc.ritualfoundation.org"
